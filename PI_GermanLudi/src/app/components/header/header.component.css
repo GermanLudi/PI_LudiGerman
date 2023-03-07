@@ -1,8 +1,10 @@
 div {
     background-color: #a1b5cb;
+    text-align: center;
 }
 
 app-social{
     float: right;
     margin-top: 25px;
 }
+

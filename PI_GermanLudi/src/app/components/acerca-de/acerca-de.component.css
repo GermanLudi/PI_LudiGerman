@@ -18,11 +18,12 @@ div{
 @media (min-width: 576px) { /*Media Query*/
     #fotodeperfil{ 
         position: absolute;
-        width: 15%;
+        width: 13%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
-        left: 3%;
+        left: 5%;
         top: 510px;
+        
     }
 }
 
@@ -33,6 +34,6 @@ div{
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 33%;
-        top: 630px;
+        top: 610px;
     }
 }
