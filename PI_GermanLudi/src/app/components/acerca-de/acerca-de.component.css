@@ -16,7 +16,7 @@ div{
 
 /* Estilo de la Foto De Perfil */
 @media (min-width: 576px) { /*Media Query*/
-    #fotodeperfil{ 
+    #fotodeperfil{       
         position: absolute;
         width: 13%;
         border-radius: 100%;
@@ -28,7 +28,7 @@ div{
 }
 
 @media (max-width: 575px) { /*Media Query*/
-    #fotodeperfil{ 
+    #fotodeperfil{      
         position: absolute;
         width: 30%;
         border-radius: 100%;
