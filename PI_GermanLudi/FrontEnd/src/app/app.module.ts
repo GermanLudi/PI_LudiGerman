@@ -18,6 +18,7 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { InterceptorService } from './service/interceptor-service';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,9 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
     NgCircleProgressModule.forRoot({}),
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    InterceptorService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
