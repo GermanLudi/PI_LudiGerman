@@ -7,10 +7,7 @@ package com.portfolio.gdl.Interface;
 import com.portfolio.gdl.Entity.Persona;
 import java.util.List;
 
-/**
- *
- * @author Programacion
- */
+
 public interface IPersonaService {
     //Traer una lista de personas
     public List<Persona> getPersona();
